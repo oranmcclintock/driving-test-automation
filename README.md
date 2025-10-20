@@ -2,6 +2,8 @@
 
 This Python script automates the process of checking or managing bookings on the **Northern Ireland DVA Booking Portal** using **Selenium**. It automatically logs into the DVA booking page using your credentials and navigates to the change booking section.
 
+<img width="1897" height="975" alt="image" src="https://github.com/user-attachments/assets/9e0801bb-a8df-4678-9b8f-7e877e595553" />
+
 ---
 
 ## Features
