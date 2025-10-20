@@ -1,10 +1,10 @@
-# 🧭 DVA Booking Automation Script
+# DVA Booking Automation Script
 
 This Python script automates the process of checking or managing bookings on the **Northern Ireland DVA Booking Portal** using **Selenium**. It automatically logs into the DVA booking page using your credentials and navigates to the change booking section.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Automates login to the [DVA booking portal](https://dva-bookings.nidirect.gov.uk/MyBookings/FindDriver)  
 - Fills in your booking details automatically  
@@ -14,7 +14,7 @@ This Python script automates the process of checking or managing bookings on the
 
 ---
 
-## 🧩 Requirements
+## Requirements
 
 Make sure you have the following installed:
 
@@ -27,7 +27,7 @@ You can install Selenium using pip:
 
 pip install selenium
 
-⚙️ Setup
+## Setup
 
 Clone or download this repository.
 
@@ -45,7 +45,7 @@ Run the script:
 
     python main.py
 
-🧠 How It Works
+## How It Works
 
   Opens the DVA Find Driver Booking page.
   Inputs the booking reference, driver number, and date of birth.
@@ -55,12 +55,12 @@ Run the script:
 
 If any issue occurs (e.g. page timeout, element not found), the script retries after 5 seconds.
 
-🧪 Example Output
+## Example Output
 
 Exception occurred: no such element: Unable to locate element...
 In the queue. Retrying...
 
-🔒 Security Notes
+## Security Notes
 
   Do not commit or share your personal details (booking reference, driver number, DOB) in public repositories.
   Consider using environment variables or a .env file to store sensitive information securely.
